@@ -27,7 +27,7 @@ export default function FindYourStory() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
           {/* Beginner Path */}
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-blue-100">
             <div className="w-12 h-12 bg-blue-500 rounded-lg mb-4 flex items-center justify-center">
@@ -40,8 +40,7 @@ export default function FindYourStory() {
               Start with fundamental concepts, basic programming, and simple robotics projects.
             </p>
             <div className="mb-4">
-              <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">8 Courses</span>
-              <span className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full ml-2">20+ Hours</span>
+              <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Basic Mechanics, Mathematics, and Electronics</span>
             </div>
             <Link href="/courses/beginner" className="text-blue-600 font-semibold hover:text-blue-800">
               Start Learning →
@@ -59,15 +58,14 @@ export default function FindYourStory() {
               Advanced programming, sensor integration, and AI fundamentals for robotics.
             </p>
             <div className="mb-4">
-              <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">12 Courses</span>
-              <span className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full ml-2">35+ Hours</span>
+              <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Advanced Mechanics and Circuit Design</span>
             </div>
             <Link href="/courses/intermediate" className="text-indigo-600 font-semibold hover:text-indigo-800">
               Continue Journey →
             </Link>
           </div>
 
-          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-purple-100">
+          {/* <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-purple-100">
             <div className="w-12 h-12 bg-purple-500 rounded-lg mb-4 flex items-center justify-center">
               <span className="text-white text-xl">🚀</span>
             </div>
@@ -84,7 +82,7 @@ export default function FindYourStory() {
             <Link href="/courses/advanced" className="text-purple-600 font-semibold hover:text-purple-800">
               Master Skills →
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -175,21 +173,7 @@ export default function FindYourStory() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-500">
-            <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-blue-600 text-lg">📚</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-800">Programming Guides</h3>
-            </div>
-            <p className="text-gray-600 mb-4 text-sm">
-              Step-by-step guides for Python, Arduino, and robotics programming.
-            </p>
-            <Link href="/downloads/programming-guides" className="text-blue-600 font-semibold hover:text-blue-800 text-sm">
-              Download PDF →
-            </Link>
-          </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
 
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-indigo-500">
             <div className="flex items-center mb-4">
@@ -221,20 +205,6 @@ export default function FindYourStory() {
             </Link>
           </div>
 
-          <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-green-500">
-            <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-green-600 text-lg">🎯</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-800">Practice Challenges</h3>
-            </div>
-            <p className="text-gray-600 mb-4 text-sm">
-              Coding challenges and mini-projects to test your skills.
-            </p>
-            <Link href="/downloads/challenges" className="text-green-600 font-semibold hover:text-green-800 text-sm">
-              Get Challenges →
-            </Link>
-          </div>
 
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-orange-500">
             <div className="flex items-center mb-4">
@@ -268,36 +238,7 @@ export default function FindYourStory() {
         </div>
       </section>
 
-      {/* Featured Course */}
-      <section className="py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 rounded-2xl p-8 text-white">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">
-              Featured Course
-            </h2>
-            <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-              <h3 className="text-2xl font-semibold mb-4">
-                "Build Your First Robot: Complete Beginner's Course"
-              </h3>
-              <p className="text-lg opacity-90 mb-6">
-                A comprehensive 10-week course covering everything from basic electronics to programming 
-                your first autonomous robot. Includes hardware kit and virtual lab access.
-              </p>
-              <div className="flex justify-center gap-4 mb-6">
-                <span className="bg-white/20 px-3 py-1 rounded-full text-sm">✅ Hardware Included</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full text-sm">⏰ 10 Weeks</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full text-sm">👥 Live Support</span>
-              </div>
-              <Link 
-                href="/courses/build-your-first-robot" 
-                className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
-              >
-                Enroll Now - Free
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Call to Action */}
       <section className="py-16 bg-gray-50">

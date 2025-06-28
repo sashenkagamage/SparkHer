@@ -27,11 +27,11 @@ export default function FeaturedStories() {
             We're currently curating amazing stories of female roboticists and innovators. 
             Check back soon for inspiring journeys that will spark your passion for STEM!
           </p>
-          <div className="bg-blue-50 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">
+          <div className="bg-blue-50 rounded-lg p-6 items-center">
+            <h3 className="text-xl font-semibold text-gray-800 mb-3 text-left">
               What to expect:
             </h3>
-            <ul className="text-gray-600 space-y-2">
+            <ul className="text-gray-600 space-y-2 text-left">
               <li>• Profiles of pioneering women in robotics</li>
               <li>• Success stories from young innovators</li>
               <li>• Career journey insights and advice</li>

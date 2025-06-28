@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
+      <section className="relative overflow-hidden bg-gradient-to-r from-blue-950 via-indigo-600 to-purple-600 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section id="get-started" className="py-16 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
+      <section id="get-started" className="py-16 bg-gradient-to-r from-blue-950 via-indigo-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             Ready to Share Your Story?

@@ -17,6 +17,30 @@ export default function About() {
       {/* Content */}
       <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg mx-auto">
+
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">Meet the Founder</h2>
+         
+         <div className="flex flex-col lg:flex-row gap-6 items-center">
+           <div className="lg:w-1/3 flex-shrink-0">
+             <img 
+               src="/my-image.jpg" 
+               alt="Sashenka, Founder of SparkHer" 
+               className="w-64 h-64 lg:w-full lg:h-auto object-cover rounded-xl shadow-lg mx-auto"
+             />
+           </div>
+           <div className="lg:w-2/3">
+             <p className="text-gray-700 leading-relaxed">
+               Hi, I'm <strong>Sashenka</strong>, founder of SparkHer — a small space I created to show that robotics can be creative, people-centered, and built with empathy. 
+             </p>
+             <p className="text-gray-700 leading-relaxed mt-4">
+               I've always been curious about how things move and connect, but I never imagined myself "belonging" in robotics until I really started building things that felt meaningful. Through research projects, community work, and a lot of trial and error, I found my passion not just in technology, but in how we can use it to make life better. 
+             </p>
+             <p className="text-gray-700 leading-relaxed mt-4">
+               SparkHer is my way of passing that on — especially to young girls who might feel like they don't quite fit the mold. You don't have to. If you're curious, you're already halfway there. Let's build something — together.
+             </p>
+         
+         </div>
+       </div>
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
           <p className="text-gray-600 mb-6">
             SparkHer is dedicated to inspiring and empowering young women to pursue careers in robotics, 
@@ -32,12 +56,7 @@ export default function About() {
             Our platform offers everything from beginner-friendly courses to advanced robotics projects.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Vision</h2>
-          <p className="text-gray-600">
-            We envision a future where women are equally represented in all areas of technology and innovation. 
-            By sparking interest early and providing ongoing support, we're building a community of female 
-            innovators who will shape the future of robotics and engineering.
-          </p>
+
         </div>
       </section>
     </div>

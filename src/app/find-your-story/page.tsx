@@ -147,7 +147,7 @@ export default function FindYourStory() {
         </div>
       </section>
 
-      {/* Downloadable Resources */}
+      {/* Downloadable Resources 
       <section className="py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -221,7 +221,7 @@ export default function FindYourStory() {
             </Link>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       
 
@@ -246,7 +246,7 @@ export default function FindYourStory() {
               href="/mentor-connect"
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-colors"
             >
-              Find a Mentor
+              Wanna be a mentor?
             </Link>
           </div>
         </div>

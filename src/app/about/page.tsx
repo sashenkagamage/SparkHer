@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
@@ -24,11 +22,9 @@ export default function About() {
          
          <div className="flex flex-col lg:flex-row gap-6 items-center">
            <div className="lg:w-1/3 flex-shrink-0">
-             <Image 
+             <img 
                src="/my-image.jpg" 
                alt="Sashenka, Founder of SparkHer" 
-               width={256}
-               height={256}
                className="w-64 h-64 lg:w-full lg:h-auto object-cover rounded-xl shadow-lg mx-auto"
              />
            </div>

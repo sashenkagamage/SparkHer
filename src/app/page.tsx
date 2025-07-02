@@ -23,7 +23,7 @@ export default function Home() {
                 Explore Stories
               </Link>
               <Link
-                href="#get-started"
+                href="/find-your-story"
                 className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors"
               >
                 Start Your Journey
@@ -59,7 +59,7 @@ export default function Home() {
       <section id="stories" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-12">
-            Inspiring Stories
+            The Place to Start
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -135,7 +135,7 @@ export default function Home() {
               Share Your Story
             </Link>
             <Link
-              href="/resources"
+              href="/find-your-story"
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Explore Resources

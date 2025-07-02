@@ -94,23 +94,23 @@ export default function FindYourStory() {
               Interactive Learning Games
             </h2>
             <p className="text-lg text-gray-600">
-              Learn by playing! Master concepts through engaging, hands-on games.
+              Play awesome games while learning about robots and coding! Perfect for ages 10-13.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 hover:shadow-lg transition-all hover:scale-105 cursor-pointer">
               <div className="w-16 h-16 bg-blue-500 rounded-full mb-4 flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">🎮</span>
+                <span className="text-white text-2xl">🤖</span>
               </div>
               <h3 className="text-lg font-semibold text-center text-gray-800 mb-2">
-                Robot Simulator
+                Robot Builder Game
               </h3>
               <p className="text-gray-600 text-sm text-center mb-4">
-                Virtual robot programming and testing environment
+                Build and control your own virtual robot! Make it walk, talk, and dance!
               </p>
               <Link href="/games/robot-simulator" className="block text-center text-blue-600 font-semibold hover:text-blue-800">
-                Play Now →
+                Coming Soon! →
               </Link>
             </div>
 
@@ -125,7 +125,7 @@ export default function FindYourStory() {
                 Programming logic and algorithm challenges
               </p>
               <Link href="/games/logic-puzzles" className="block text-center text-indigo-600 font-semibold hover:text-indigo-800">
-                Solve Puzzles →
+                Start Playing →
               </Link>
             </div>
 
@@ -137,25 +137,10 @@ export default function FindYourStory() {
                 Circuit Builder
               </h3>
               <p className="text-gray-600 text-sm text-center mb-4">
-                Design and test electronic circuits virtually
+                Create amazing electronic circuits! Make LEDs blink and buzzers buzz!
               </p>
               <Link href="/games/circuit-builder" className="block text-center text-purple-600 font-semibold hover:text-purple-800">
-                Build Circuits →
-              </Link>
-            </div>
-
-            <div className="bg-gradient-to-br from-blue-50 to-purple-100 rounded-xl p-6 hover:shadow-lg transition-all hover:scale-105 cursor-pointer">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mb-4 flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">🤖</span>
-              </div>
-              <h3 className="text-lg font-semibold text-center text-gray-800 mb-2">
-                AI Trainer
-              </h3>
-              <p className="text-gray-600 text-sm text-center mb-4">
-                Train machine learning models with visual tools
-              </p>
-              <Link href="/games/ai-trainer" className="block text-center text-blue-600 font-semibold hover:text-blue-800">
-                Train AI →
+                Start Building →
               </Link>
             </div>
           </div>
@@ -186,7 +171,7 @@ export default function FindYourStory() {
               Detailed blueprints and assembly instructions for beginner robots.
             </p>
             <Link href="/downloads/project-blueprints" className="text-indigo-600 font-semibold hover:text-indigo-800 text-sm">
-              Download Plans →
+              Coming Soon →
             </Link>
           </div>
 
@@ -232,7 +217,7 @@ export default function FindYourStory() {
               Creative project ideas and innovation methodologies.
             </p>
             <Link href="/downloads/innovation-labs" className="text-pink-600 font-semibold hover:text-pink-800 text-sm">
-              Get Ideas →
+              Coming Soon →
             </Link>
           </div>
         </div>

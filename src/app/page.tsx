@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -49,7 +48,7 @@ export default function Home() {
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Every breakthrough in robotics started with curiosity, determination, and inspiration. 
-            We're here to share the incredible journeys of female roboticists and young innovators 
+            We&apos;re here to share the incredible journeys of female roboticists and young innovators 
             who are shaping our technological future.
           </p>
         </div>
@@ -124,7 +123,7 @@ export default function Home() {
             Ready to Share Your Story?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Whether you're just starting out or you're already making waves in robotics, 
+            Whether you&apos;re just starting out or you&apos;re already making waves in robotics, 
             your story could inspire the next generation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

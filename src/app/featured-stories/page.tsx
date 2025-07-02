@@ -24,7 +24,7 @@ export default function FeaturedStories() {
             Coming Soon!
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            We're currently curating amazing stories of female roboticists and innovators. 
+            We&apos;re currently curating amazing stories of female roboticists and innovators. 
             Check back soon for inspiring journeys that will spark your passion for STEM!
           </p>
           <div className="bg-blue-50 rounded-lg p-6 items-center">

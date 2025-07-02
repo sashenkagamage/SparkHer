@@ -11,7 +11,6 @@ function RobotMazeSimulator() {
   const [commands, setCommands] = useState<string[]>([]);
   const [isRunning, setIsRunning] = useState(false);
   const [score, setScore] = useState(0);
-  const [level, setLevel] = useState(1);
   const [robotImageLoaded, setRobotImageLoaded] = useState(false);
 
   // Simple maze (1 = wall, 0 = path, 2 = goal)

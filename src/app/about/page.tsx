@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
@@ -22,21 +24,23 @@ export default function About() {
          
          <div className="flex flex-col lg:flex-row gap-6 items-center">
            <div className="lg:w-1/3 flex-shrink-0">
-             <img 
+             <Image 
                src="/my-image.jpg" 
                alt="Sashenka, Founder of SparkHer" 
+               width={256}
+               height={256}
                className="w-64 h-64 lg:w-full lg:h-auto object-cover rounded-xl shadow-lg mx-auto"
              />
            </div>
            <div className="lg:w-2/3">
              <p className="text-gray-700 leading-relaxed">
-               Hi, I'm <strong>Sashenka</strong>, founder of SparkHer — a small space I created to show that robotics can be creative, people-centered, and built with empathy. 
+               Hi, I&apos;m <strong>Sashenka</strong>, founder of SparkHer — a small space I created to show that robotics can be creative, people-centered, and built with empathy. 
              </p>
              <p className="text-gray-700 leading-relaxed mt-4">
-               I've always been curious about how things move and connect, but I never imagined myself "belonging" in robotics until I really started building things that felt meaningful. Through research projects, community work, and a lot of trial and error, I found my passion not just in technology, but in how we can use it to make life better. 
+               I&apos;ve always been curious about how things move and connect, but I never imagined myself &ldquo;belonging&rdquo; in robotics until I really started building things that felt meaningful. Through research projects, community work, and a lot of trial and error, I found my passion not just in technology, but in how we can use it to make life better. 
              </p>
              <p className="text-gray-700 leading-relaxed mt-4">
-               SparkHer is my way of passing that on — especially to young girls who might feel like they don't quite fit the mold. You don't have to. If you're curious, you're already halfway there. Let's build something — together.
+               SparkHer is my way of passing that on — especially to young girls who might feel like they don&apos;t quite fit the mold. You don&apos;t have to. If you&apos;re curious, you&apos;re already halfway there. Let&apos;s build something — together.
              </p>
          
          </div>
@@ -44,7 +48,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
           <p className="text-gray-600 mb-6">
             SparkHer is dedicated to inspiring and empowering young women to pursue careers in robotics, 
-            engineering, and STEM fields. We believe that diversity drives innovation, and we're committed 
+            engineering, and STEM fields. We believe that diversity drives innovation, and we&apos;re committed 
             to breaking down barriers and creating opportunities for the next generation of female leaders 
             in technology.
           </p>
